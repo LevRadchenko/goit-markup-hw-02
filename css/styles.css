@@ -40,7 +40,8 @@ a {
     color: #2e2f42;
 }
 
-.link-menu:hover {
+.link-menu:hover,
+.link-menu:focus {
     color: #404bbf;
 }
 
@@ -50,9 +51,11 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal;
 }
 
-.contacts:hover {
+.contacts:hover,
+.contacts:focus {
     color: #404bbf;
 }
 
@@ -71,13 +74,18 @@ a {
 
 .banner-button {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
+    background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+}
+
+.banner-button:hover,
+.banner-button:focus {
+    background-color: #404bbf;
 }
 
 .features-mini-title {
